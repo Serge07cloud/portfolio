@@ -58,10 +58,10 @@ const Experience = () =>
           <h2 id="accordion-open-heading-1">
             <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-body rounded-t-sm border border-t-0 border-x-0 border-b-default border-gray-300 hover:text-heading hover:bg-neutral-secondary-medium gap-3" data-accordion-target="#accordion-open-body-1" aria-expanded="false" aria-controls="accordion-open-body-1">
               <div className="flex flex-col items-start w-full">
-                <p>Data Lead | Cargill West Africa</p>
-                <p className="text-xs text-gray-400">
-                  <span className="text-gray-600">Period : </span>
-                  <span>2020 - 2021</span>
+                <p className="text-xl">Data Lead | <span className="font-normal text-gray-600">Cargill West Africa</span></p>
+                <p className="text-xs">
+                  <span className="">Period : </span>
+                  <span>2023 - 2025</span>
                 </p>
               </div>
               <svg data-accordion-icon className="w-5 h-5 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m5 15 7-7 7 7" /></svg>
@@ -72,15 +72,16 @@ const Experience = () =>
               <p className="text-blue-500 font-medium">Details :</p>
               <ul className="ps-5 text-body list-disc mb-3">
                 <li>
-                  Integration of a complete payroll management module into a C# application to simplify the calculation of income based on the category of employees.
+                  Design, development and deployment of an administrative dashboard connected to an SAP system for real-time monitoring of cocoa delivery activities from more than 150 cooperatives to the company's warehouse.
                 </li>
                 <li>
-                  Contribution to more efficient user management, development of a customized administrative dashboard by user category, and document download (.xlsx, csc) with ASP. NET, jQuery & SQL Server.
+                  Development of a mobile application with Jetpack Compose to enable digital field edge purchases and a web application with ASP.NET, JQuery and SQL Server for general activity tracking.
                 </li>
               </ul>
               <p className="text-blue-500 font-medium">Project :</p>
               <div className="mx-6 mb-3">
-                <span>Mazars Pro</span>
+                <span>TraceXpert (Web application)</span>
+                <span>TraceXpert (Mobile application)</span>
               </div>
               <p className="text-blue-500 font-medium">Technologies :</p>
               <div className="mx-6 flex">
@@ -96,10 +97,10 @@ const Experience = () =>
             <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-body border border-x-0 border-b-default border-t-0 hover:text-heading border-gray-300 hover:bg-neutral-secondary-medium gap-3" data-accordion-target="#accordion-open-body-2" aria-expanded="false" aria-controls="accordion-open-body-2">
               <div className="flex flex-col items-start w-full">
 
-                <p>Full-stack Developer | Webversalis</p>
-                <p className="text-xs text-gray-400">
-                  <span className="text-gray-600">Period : </span>
-                  <span>2020 - 2021</span>
+                <p className="text-xl">Full-stack Developer | <span className="font-normal">Webversalis</span></p>
+                <p className="text-xs ">
+                  <span className="">Period : </span>
+                  <span>2022 - 2023</span>
                 </p>
               </div>
               <svg data-accordion-icon className="w-5 h-5 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m5 15 7-7 7 7" /></svg>
@@ -110,15 +111,20 @@ const Experience = () =>
               <p className="">Details :</p>
               <ul className="ps-5 text-body list-disc mb-3">
                 <li>
-                  Integration of a complete payroll management module into a C# application to simplify the calculation of income based on the category of employees.
+                  Development and deployment of a modern puzzle game web application build with famous Switzerland places - with Vue, Tailwindcss, Typescript and server-side application with symfony.
                 </li>
                 <li>
-                  Contribution to more efficient user management, development of a customized administrative dashboard by user category, and document download (.xlsx, csc) with ASP. NET, jQuery & SQL Server.
+                  Creation of a website collecting quotes from historical and contemporary authors with a module for sharing and adding favorites.
+                </li>
+                <li>
+                  Contribution to the development of a content management platform for multiple sites - built with Vue, Tailwindcss, and server-side with Symfony.
                 </li>
               </ul>
               <p>Project :</p>
               <div className="mx-6 mb-3">
-                <span>Mazars Pro</span>
+                <span>Citation Emporium</span>
+                <span>Helvetica Puzzle</span>
+                <span>Intraversalis</span>
               </div>
               <p>Technologies</p>
               <div className="mx-6 flex">
@@ -133,10 +139,10 @@ const Experience = () =>
           <h2 id="accordion-open-heading-3">
             <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-body hover:text-heading hover:bg-neutral-secondary-medium gap-3" data-accordion-target="#accordion-open-body-3" aria-expanded="false" aria-controls="accordion-open-body-3">
               <div className="flex flex-col items-start w-full">
-                <p>Full-stack Developer | Felix Houphouët Boigny University</p>
-                <p className="text-xs text-gray-400">
-                  <span className="text-gray-600">Period : </span>
-                  <span>2020 - 2021</span>
+                <p className="text-xl">Full-stack Developer | <span className="font-normal">Felix Houphouët Boigny University</span></p>
+                <p className="text-xs">
+                  <span className="">Period : </span>
+                  <span>2021 - 2022</span>
                 </p>
               </div>
               <svg data-accordion-icon className="w-5 h-5 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m5 15 7-7 7 7" /></svg>
@@ -147,15 +153,13 @@ const Experience = () =>
               <p className="">Details :</p>
               <ul className="ps-5 text-body list-disc mb-3">
                 <li>
-                  Integration of a complete payroll management module into a C# application to simplify the calculation of income based on the category of employees.
-                </li>
-                <li>
-                  Contribution to more efficient user management, development of a customized administrative dashboard by user category, and document download (.xlsx, csc) with ASP. NET, jQuery & SQL Server.
+                  Developed the backend module for managing the text notebooks of my university professors using PHP, TCPDF, and MySQL.
+                  Additionally, I helped develop a comprehensive module for printing personalized documents from my university.
                 </li>
               </ul>
               <p>Project :</p>
               <div className="mx-6 mb-3">
-                <span>Mazars Pro</span>
+                <span>Notebooks Management System</span>
               </div>
               <p>Technologies</p>
               <div className="mx-6 flex">
@@ -170,9 +174,9 @@ const Experience = () =>
           <h2 id="accordion-open-heading-4">
             <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-body hover:text-heading hover:bg-neutral-secondary-medium gap-3" data-accordion-target="#accordion-open-body-4" aria-expanded="false" aria-controls="accordion-open-body-3">
               <div className="flex flex-col items-start w-full">
-                <p>Web Developer | Filao</p>
-                <p className="text-xs text-gray-400">
-                  <span className="text-gray-600">Period : </span>
+                <p className="text-xl">Web Developer | <span className="font-normal">Filao</span></p>
+                <p className="text-xs ">
+                  <span className="">Period : </span>
                   <span>2020 - 2021</span>
                 </p>
               </div>
