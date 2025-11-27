@@ -168,11 +168,11 @@ const Experience = () => {
                 </li>
               </ul>
               <p className="text-blue-500 font-medium">Project :</p>
-              <div className="mx-5 my-3">
+              <div className="flex flex-wrap gap-3 mx-5 my-3">
                 <span className="font-medium p-2 rounded-xs text-sm ring-1 ring-gray-300">
                   TraceXpert (Web application)
                 </span>
-                <span className="font-medium p-2 rounded-xs text-sm ring-1 ring-gray-300 mx-3">
+                <span className="font-medium p-2 rounded-xs text-sm ring-1 ring-gray-300">
                   TraceXpert (Mobile application)
                 </span>
                 <span className="font-medium p-2 rounded-xs text-sm ring-1 ring-gray-300">
@@ -255,7 +255,7 @@ const Experience = () => {
                 </li>
               </ul>
               <p className="text-indigo-500 font-medium">Project :</p>
-              <div className="mx-5 my-3">
+              <div className="flex flex-wrap gap-3 mx-5 my-3">
                 <span className="font-medium p-2 rounded-xs text-sm ring-1 ring-gray-300">
                   Citation Emporium
                 </span>
@@ -333,7 +333,7 @@ const Experience = () => {
                 </li>
               </ul>
               <p className="text-blue-500 font-medium">Project :</p>
-              <div className="mx-5 my-3">
+              <div className="flex flex-wrap gap-3 mx-5 my-3">
                 <span className="font-medium p-2 rounded-xs text-sm ring-1 ring-gray-300">
                   Notebooks Management System
                 </span>
@@ -404,7 +404,7 @@ const Experience = () => {
                 </li>
               </ul>
               <p className="text-indigo-500 font-medium">Project :</p>
-              <div className="mx-5 my-3">
+              <div className="flex flex-wrap gap-3 mx-5 my-3">
                 <span className="font-medium p-2 rounded-xs text-sm ring-1 ring-gray-300">
                   Mazars Pro
                 </span>
