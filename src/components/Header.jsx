@@ -14,7 +14,7 @@ const Header = () =>
       link: "#"
     },
     {
-      name: "Experience",
+      name: "Experiences",
       link: "#"
     },
     {
