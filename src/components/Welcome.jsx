@@ -26,7 +26,11 @@ const Welcome = () => {
                 <span className="relative inline-flex size-3 rounded-full bg-green-500"></span>
               </span>
 
-              <div>
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-easing="ease"
+              >
                 Open to collaborative research and development.{" "}
                 <a href="#" className="font-semibold text-indigo-400">
                   <span aria-hidden="true" className="absolute inset-0"></span>
@@ -36,10 +40,19 @@ const Welcome = () => {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-5xl font-semibold tracking-tight text-balance dark:text-white sm:text-7xl">
+            <h1
+              className="text-5xl font-semibold tracking-tight text-balance dark:text-white sm:text-7xl"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+            >
               I can help you turn your ideas in seamless digital experiences
             </h1>
-            <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
+            <p
+              className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1200"
+            >
               Hi, Welcome on my digital portfolio. I am{" "}
               <span className="text-xl  dark:text-gray-50">Landry Konan</span>,
               a fullstack web developer building smart, fun and scalable web
@@ -79,10 +92,17 @@ const Welcome = () => {
               Me?
             </span>
           </h1>
-          <h1 className="py-3.5 text-3xl font-bold tracking-tight text-balance text-gray-400 dark:text-white sm:text-4xl">
+          <h1
+            data-aos="zoom-in"
+            className="py-3.5 text-3xl font-bold tracking-tight text-balance text-gray-400 dark:text-white sm:text-4xl"
+          >
             A Foundation of Trust and Excellence
           </h1>
-          <div className="text-lg font-normal text-pretty max-w-3xl mx-auto text-gray-600 sm:text-xl/8">
+          <div
+            className="text-lg font-normal text-pretty max-w-3xl mx-auto text-gray-600 sm:text-xl/8"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             As a steadfast learner with strong analytical skills, I have trained
             for 5 years in building full-stack web applications, APIs, and BI
             dashboards from start to finish. I have a problem-solving mindset
@@ -96,6 +116,8 @@ const Welcome = () => {
             <a
               href="#"
               className="max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm  dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 flex flex-column"
+              data-aos="fade-up-right"
+              data-aos-duration="1000"
             >
               <FaArrowTrendUp
                 size={70}
@@ -116,6 +138,8 @@ const Welcome = () => {
             <a
               href="#"
               className="max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 flex flex-column"
+              data-aos="fade-down"
+              data-aos-duration="1000"
             >
               <GiOvermind
                 size={70}
@@ -134,6 +158,8 @@ const Welcome = () => {
             </a>
 
             <a
+              data-aos="fade-up-left"
+              data-aos-duration="1000"
               href="#"
               className=" max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-50 dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 flex flex-column"
             >

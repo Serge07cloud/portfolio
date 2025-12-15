@@ -11,12 +11,21 @@ const CoreTech = () => {
     <>
       <div className="dark:text-gray-50 max-w-6xl">
         <div className="py-8 flex justify-center items-center">
-          <GrTechnology />
-          <span className="mx-1 uppercase font-light text-md font-mono">
+          <GrTechnology data-aos="fade-right" data-aos-duration="1000" />
+          <span
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            className="mx-1 uppercase font-light text-md font-mono"
+          >
             Core technologies
           </span>
         </div>
-        <div className="grid grid-cols-2  md:flex md:flex-wrap md:justify-center gap-3">
+        <div
+          className="grid grid-cols-2  md:flex md:flex-wrap md:justify-center gap-3"
+          data-aos="zoom-out"
+          data-aos-delay="50"
+          data-aos-duration="1500"
+        >
           <div className="flex justify-center items-center font-semibold px-3 py-2 rounded-sm shadow ring-1 ring-black/10">
             <FaReact color="00ffff" size={16} />{" "}
             <span className="mx-1 text-md ">React</span>
