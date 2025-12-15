@@ -1,6 +1,7 @@
 import CoreTech from "./coreTech";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { GiOvermind, GiGraduateCap } from "react-icons/gi";
+import TypeIt from "typeit-react";
 
 const Welcome = () => {
   return (
@@ -86,12 +87,18 @@ const Welcome = () => {
         </div>
 
         <div className="text-center mx-auto max-w-5xl pb-24 sm:pb-24 lg:pb-24">
-          <h1 className="text-5xl font-bold tracking-tight text-balance dark:text-white sm:text-5xl">
+          <TypeIt
+            options={{
+              waitUntilVisible: true,
+              speed: 120,
+            }}
+            className="text-5xl font-bold tracking-tight text-balance dark:text-white sm:text-5xl"
+          >
             Why hire{" "}
             <span className="font-bold bg-clip-text text-transparent bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500">
               Me?
             </span>
-          </h1>
+          </TypeIt>
           <h1
             data-aos="zoom-in"
             className="py-3.5 text-3xl font-bold tracking-tight text-balance text-gray-400 dark:text-white sm:text-4xl"
