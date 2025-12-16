@@ -34,7 +34,7 @@ const ReachMe = () => {
         </div>
         <a
           href="#"
-          className="rounded bg-indigo-500 px-3.5 py-2.5 text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 text-xl font-medium tracking-tight"
+          className="rounded bg-indigo-500 px-3.5 py-2.5 text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 text-xl font-semibold tracking-tight animate-pulse"
         >
           Get in touch
         </a>
