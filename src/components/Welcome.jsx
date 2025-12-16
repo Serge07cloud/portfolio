@@ -45,6 +45,7 @@ const Welcome = () => {
               className="text-5xl font-semibold tracking-tight text-balance dark:text-white sm:text-7xl"
               data-aos="flip-up"
               data-aos-duration="1000"
+              id="about"
             >
               I can help you turn your ideas in seamless digital experiences
             </h1>

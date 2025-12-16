@@ -3,7 +3,10 @@ import TypeIt from "typeit-react";
 const ReachMe = () => {
   return (
     <>
-      <div className="text-center mx-auto max-w-6xl pb-48 sm:pb-48 lg:pb-48">
+      <div
+        id="contact"
+        className="text-center mx-auto max-w-6xl pb-48 sm:pb-48 lg:pb-48"
+      >
         <h1 className="text-5xl font-bold tracking-tight text-balance dark:text-white sm:text-7xl">
           <TypeIt
             options={{

@@ -24,7 +24,10 @@ import {
 const Experience = () => {
   return (
     <>
-      <div className="text-center max-w-6xl pb-24 sm:pb-24 lg:pb-24 mx-auto">
+      <div
+        id="experiences"
+        className="text-center max-w-6xl pb-24 sm:pb-24 lg:pb-24 mx-auto"
+      >
         <h1
           data-aos="flip-up"
           data-aos-duration="1000"

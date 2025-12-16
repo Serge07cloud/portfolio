@@ -19,7 +19,10 @@ import Webby from "../assets/webby.svg";
 const Projects = () => {
   return (
     <>
-      <div className="text-center mx-auto max-w-6xl pb-24 sm:pb-24 lg:pb-24">
+      <div
+        id="projects"
+        className="text-center mx-auto max-w-6xl pb-24 sm:pb-24 lg:pb-24"
+      >
         <TypeIt
           options={{
             waitUntilVisible: true,
