@@ -67,7 +67,12 @@ const Welcome = () => {
               >
                 Get in touch
               </a>
-              <a href="#" className="text-sm/6 font-semibold dark:text-white">
+              <a
+                data-aos="fade-left"
+                data-aos-duration="1300"
+                href="#"
+                className="text-sm/6 font-semibold dark:text-white"
+              >
                 See projects <span aria-hidden="true">→</span>
               </a>
             </div>

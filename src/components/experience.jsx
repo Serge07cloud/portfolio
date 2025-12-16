@@ -1,4 +1,3 @@
-import { TbBrandCSharp } from "react-icons/tb";
 import {
   FaGitAlt,
   FaJsSquare,
@@ -26,17 +25,27 @@ const Experience = () => {
   return (
     <>
       <div className="text-center max-w-6xl pb-24 sm:pb-24 lg:pb-24 mx-auto">
-        <h1 className="text-5xl font-bold tracking-tight text-balance dark:text-white sm:text-5xl">
+        <h1
+          data-aos="flip-up"
+          data-aos-duration="1000"
+          className="text-5xl font-bold tracking-tight text-balance dark:text-white sm:text-5xl"
+        >
           Work{" "}
           <span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-500 via-purple-500 to-blue-500">
             Experience
           </span>
         </h1>
-        <div className="text-lg font-normal py-5 text-pretty text-gray-600 sm:text-xl/8">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="text-lg font-normal py-5 text-pretty text-gray-600 sm:text-xl/8"
+        >
           My professional journey so far.
         </div>
 
         <div
+          data-aos="zoom-in"
+          data-aos-duration="1000"
           id="accordion-open"
           data-accordion="open"
           className=" overflow-hidden shadow-xs mx-8"

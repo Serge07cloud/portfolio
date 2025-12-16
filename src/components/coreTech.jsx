@@ -10,19 +10,19 @@ const CoreTech = () => {
   return (
     <>
       <div className="dark:text-gray-50 max-w-6xl">
-        <div className="py-8 flex justify-center items-center">
-          <GrTechnology data-aos="fade-right" data-aos-duration="1000" />
-          <span
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            className="mx-1 uppercase font-light text-md font-mono"
-          >
+        <div
+          className="py-8 flex justify-center items-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <GrTechnology />
+          <span className="mx-1 uppercase font-light text-md font-mono">
             Core technologies
           </span>
         </div>
         <div
           className="grid grid-cols-2  md:flex md:flex-wrap md:justify-center gap-3"
-          data-aos="zoom-out"
+          data-aos="flip-down"
           data-aos-delay="50"
           data-aos-duration="1500"
         >

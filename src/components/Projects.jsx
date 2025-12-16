@@ -6,6 +6,7 @@ import { SiTypescript, SiInsomnia } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import Pinia from "../assets/pinia.svg";
 import Element from "../assets/element.svg";
+import TypeIt from "typeit-react";
 import {
   FaCss3Alt,
   FaHtml5,
@@ -19,16 +20,29 @@ const Projects = () => {
   return (
     <>
       <div className="text-center mx-auto max-w-6xl pb-24 sm:pb-24 lg:pb-24">
-        <h1 className="text-5xl font-bold tracking-tight text-balance dark:text-white sm:text-5xl">
+        <TypeIt
+          options={{
+            waitUntilVisible: true,
+            speed: 120,
+          }}
+          className="text-5xl font-bold tracking-tight text-balance dark:text-white sm:text-5xl"
+        >
           My Featured{" "}
           <span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-500 via-purple-500 to-blue-500">
-            Projects
+            Projects.
           </span>
-        </h1>
-        <h1 className="py-3.5 text-3xl font-bold tracking-tight text-balance text-gray-400 dark:text-white sm:text-4xl">
+        </TypeIt>
+        <h1
+          data-aos="zoom-in"
+          className="py-3.5 text-3xl font-bold tracking-tight text-balance text-gray-400 dark:text-white sm:text-4xl"
+        >
           Recent projects
         </h1>
-        <div className="text-lg font-normal text-pretty max-w-3xl mx-auto text-gray-600 sm:text-xl/8">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="text-lg font-normal text-pretty max-w-3xl mx-auto text-gray-600 sm:text-xl/8"
+        >
           A selection of my work that demonstrates my skills in web application
           development.
         </div>
@@ -36,7 +50,11 @@ const Projects = () => {
         <div className="dark:bg-gray-900">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mt-10 grid max-w-2xl mx-auto justify-items-center grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-              <article className="max-w-sm bg-white border border-gray-200 rounded shadow-sm dark:bg-gray-800 dark:border-gray-700">
+              <article
+                data-aos="fade-down-right"
+                data-aos-duration="1000"
+                className="max-w-sm bg-white border border-gray-200 rounded shadow-sm dark:bg-gray-800 dark:border-gray-700"
+              >
                 <a href="#" className="">
                   <img
                     className="rounded-t-sm object-cover h-50 w-full"
@@ -90,7 +108,11 @@ const Projects = () => {
                 </div>
               </article>
 
-              <article className="max-w-sm bg-white border border-gray-200 rounded shadow-sm dark:bg-gray-800 dark:border-gray-700">
+              <article
+                data-aos="flip-up"
+                data-aos-duration="1000"
+                className="max-w-sm bg-white border border-gray-200 rounded shadow-sm dark:bg-gray-800 dark:border-gray-700"
+              >
                 <a href="#">
                   <img
                     className="rounded-t-sm object-cover h-50"
@@ -144,7 +166,11 @@ const Projects = () => {
                 </div>
               </article>
 
-              <article className="max-w-sm bg-white border border-gray-200 rounded shadow-sm dark:bg-gray-800 dark:border-gray-700">
+              <article
+                data-aos="fade-down-left"
+                data-aos-duration="1000"
+                className="max-w-sm bg-white border border-gray-200 rounded shadow-sm dark:bg-gray-800 dark:border-gray-700"
+              >
                 <a href="#">
                   <img
                     className="rounded-t-sm"
