@@ -3,18 +3,17 @@ import Projects from "./projects";
 import Experience from "./experience";
 import ReachMe from "./reachMe";
 
-const Main = () =>
-{
+const Main = () => {
   return (
     <>
-      <div className="isolate dark:bg-gray-900">
+      <div className="isolate dark:bg-gray-900 overflow-x-hidden">
         <Welcome />
         <Projects />
         <Experience />
         <ReachMe />
       </div>
     </>
-  )
+  );
 };
 
-export default Main
+export default Main;

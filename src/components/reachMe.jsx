@@ -33,7 +33,6 @@ const ReachMe = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-delay="1000"
           className="text-lg font-normal text-pretty max-w-3xl mx-auto text-gray-400 sm:text-xl/8 my-8"
         >
           I'm currently open to new opportunities and collaborations. Whether
@@ -42,7 +41,7 @@ const ReachMe = () => {
         </div>
         <a
           href="#"
-          className="rounded bg-indigo-500 px-3.5 py-2.5 text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 text-xl font-semibold tracking-tight animate-pulse"
+          className="rounded bg-indigo-500 px-3.5 py-2.5 text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 text-md font-semibold tracking-tight animate-pulse"
         >
           Get in touch
         </a>
