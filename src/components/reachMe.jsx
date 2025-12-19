@@ -30,7 +30,12 @@ const ReachMe = () => {
             className="bg-clip-text text-transparent bg-linear-to-r from-indigo-500 via-purple-500 to-blue-500 block"
           ></TypeIt>
         </h1>
-        <div className="text-lg font-normal text-pretty max-w-3xl mx-auto text-gray-400 sm:text-xl/8 my-8">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          className="text-lg font-normal text-pretty max-w-3xl mx-auto text-gray-400 sm:text-xl/8 my-8"
+        >
           I'm currently open to new opportunities and collaborations. Whether
           you have a project in mind, a question, or just want to say hi, my
           inbox is always open. I'll try my best to get back to you!
