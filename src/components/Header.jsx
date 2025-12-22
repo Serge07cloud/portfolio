@@ -1,3 +1,4 @@
+import myPic from "../assets/slk.jpg";
 const Header = () => {
   const menu = [
     {
@@ -32,9 +33,9 @@ const Header = () => {
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+                src={myPic}
                 alt=""
-                className="h-8 w-auto dark:hidden"
+                className="h-8 w-auto drop-shadow-md ring-2 ring-gray-100 scale-150 rounded-full dark:hidden"
               />
               <img
                 src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
