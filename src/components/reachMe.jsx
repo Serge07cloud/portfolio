@@ -40,7 +40,7 @@ const ReachMe = () => {
           inbox is always open. I'll try my best to get back to you!
         </div>
         <a
-          href="#"
+          href="mailto:sergelandry.07.slk@gmail.com"
           className="rounded bg-indigo-500 px-3.5 py-2.5 text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 text-md font-semibold tracking-tight animate-pulse"
         >
           Get in touch

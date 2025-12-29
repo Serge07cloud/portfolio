@@ -33,7 +33,10 @@ const Welcome = () => {
                 data-aos-easing="ease"
               >
                 Open to collaborative research and development.{" "}
-                <a href="#" className="font-semibold text-indigo-400">
+                <a
+                  href="mailto:sergelandry.07.slk@gmail.com"
+                  className="font-semibold text-indigo-400"
+                >
                   <span aria-hidden="true" className="absolute inset-0"></span>
                   Get in touch <span aria-hidden="true">&rarr;</span>
                 </a>

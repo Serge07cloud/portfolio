@@ -16,7 +16,10 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a
+                href="mailto:sergelandry.07.slk@gmail.com"
+                className="hover:underline"
+              >
                 Contact me
               </a>
             </li>
